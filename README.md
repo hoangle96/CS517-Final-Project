@@ -10,7 +10,7 @@ Idea : We convert our k-anonymization problem into a set cover problem. We then 
 
 Package requirements :
 
-1. cvxpy
+1. cvxpy==1.0.25
 2. pandas
  
 Running the experiment : 
