@@ -33,11 +33,9 @@ def convert_combination(df_cost_cal, df, combination):
         flag = 0
         for i in  range(len(combination)-1):
             if subset[i][j] != subset[i+1][j] :
-                #print ("column " , j ," all stars" )
                 flag = 1
                 break
         if flag == 1:
-            #for j in range(len(df.columns)-1):
             for elem in combination :
                 df.iat[elem,j] = "*"
 
