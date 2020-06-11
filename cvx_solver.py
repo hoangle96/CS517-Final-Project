@@ -75,6 +75,7 @@ if __name__ == "__main__":
     possible_combinations = get_all_combination(df, k)
     n_rows = len(df)
     n_combo = len(possible_combinations)
+    print("Number of all possible subsets/row combinations", n_combo)
 
     weights = np.array([cal_cost(df_to_cal_cost, idx) for idx in possible_combinations]).reshape((1,-1))
     row_combo_map = np.zeros((n_rows, n_combo))

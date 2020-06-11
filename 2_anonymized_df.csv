@@ -1,21 +1,21 @@
-0,1,2,3
-*, State-gov,*, Bachelors
-*, Self-emp-not-inc,*,*
-*, Private,*, HS-grad
-*, Private,*, 11th
-*, Private,*, Bachelors
-*, Private,*, Masters
-*, Private,*,*
-*, Self-emp-not-inc,*, HS-grad
-*, Private,*, Masters
-*, Private,*, Bachelors
-*, Private,*,*
-*, State-gov,*, Bachelors
-*, Private,*, Bachelors
-*, Private,*,*
-*, Private,*,*
-*, Private,*,*
-*, Self-emp-not-inc,*, HS-grad
-*, Private,*, HS-grad
-*, Private,*, 11th
-*, Self-emp-not-inc,*,*
+0,1,2,3,4,5,6,7,8,9
+*,*,*, Bachelors,13, Never-married, Adm-clerical,*, White,*
+*,*,*, Bachelors,13, Married-civ-spouse, Exec-managerial, Husband, White, Male
+*, Private,*, HS-grad,9,*,*,*, White, Male
+*, Private,*, 11th,7, Married-civ-spouse,*, Husband,*, Male
+*, Private,*,*,*,*, Prof-specialty,*,*, Female
+*,*,*, Masters,14,*, Exec-managerial,*, White, Female
+*, Private,*,*,*,*,*, Not-in-family, Black,*
+*, Self-emp-not-inc,*, HS-grad,9,*,*,*, White, Male
+*, Private,*,*,*,*, Prof-specialty,*,*, Female
+*,*,*, Bachelors,13, Married-civ-spouse, Exec-managerial, Husband, White, Male
+*, Private,*,*,*, Married-civ-spouse,*, Husband,*, Male
+*,*,*,*,*, Married-civ-spouse,*, Husband, Asian-Pac-Islander, Male
+*,*,*, Bachelors,13, Never-married, Adm-clerical,*, White,*
+*, Private,*,*,*,*,*, Not-in-family, Black,*
+*,*,*,*,*, Married-civ-spouse,*, Husband, Asian-Pac-Islander, Male
+*, Private,*,*,*, Married-civ-spouse,*, Husband,*, Male
+*, Self-emp-not-inc,*, HS-grad,9,*,*,*, White, Male
+*, Private,*, HS-grad,9,*,*,*, White, Male
+*, Private,*, 11th,7, Married-civ-spouse,*, Husband,*, Male
+*,*,*, Masters,14,*, Exec-managerial,*, White, Female
