@@ -4,6 +4,8 @@ import pandas as pd
 import time
 import itertools
 from pathlib import Path
+import argparse
+
 def nunique_percol_sort(a):
     b = np.sort(a,axis=0)
     return (b[1:] != b[:-1]).sum(axis=0)+1
@@ -43,19 +45,31 @@ def convert_combination(df_cost_cal, df, combination):
     
 
 if __name__ == "__main__":
-    n = 50
-    m = 10
-    k = 3
+    parser = argparse.ArgumentParser(description='Argument for R(e_max) algorithm')
+    parser.add_argument('filename', 
+                        type=str, 
+                        help='Input filename')
+    parser.add_argument('M', type = int, 
+                        help = "Number of rows to be anonymized")
+    parser.add_argument('N', type = int, 
+                        help = "Number of public attributes to be anonymized")
+    parser.add_argument('K', type = int, 
+                        help = "k rows are not differentiable from each other")
+
+    # parse arg
+    args = parser.parse_args()
+    filename = Path(args.filename)
+    m = args.M 
+    n = args.N
+    k = args.K
 
     # DATA
-    # df = pd.read_csv(Path('/adult.data'), index_col = False, header = None)
-    df = pd.read_csv(Path('adult.data'), index_col = False, header = None)
-    # print(len(df.columns))
+    df = pd.read_csv(Path(filename), index_col = False, header = None)
     df = df.dropna()
-    df = df.iloc[:n,:m]
+    df = df.iloc[:m,:n]
+    print("Original dataset")
     print(df)
     df_to_cal_cost = df.apply(lambda x: pd.factorize(x)[0])
-    # print(df_to_cal_cost)
 
     algo_1_st = time.time()
     possible_combinations = get_all_combination(df, k)
@@ -85,9 +99,8 @@ if __name__ == "__main__":
     problem.solve()
     end_t = time.time()
     print("solver time", end_t - start_t)
-    # print(problem.status)
+
     if problem.status == 'optimal':
-    # print(x.value)
         solution = []
 
         sol_st = time.time()
@@ -98,11 +111,9 @@ if __name__ == "__main__":
                 convert_combination(df_to_cal_cost,df, combo)
         sol_end = time.time()
         print("algo 3 run time", sol_end - sol_st)
+        print("k-anonymized table")
         print(df)
         file_name = str(k)+"_anonymized_df.csv"
         df.to_csv(file_name, index = False)
     else:
         print("No optimal solution")
-
-
-    # each row_idx is in only one combination
