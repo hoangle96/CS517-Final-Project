@@ -24,10 +24,30 @@ def get_all_combination(df, k):
     possible_tables += [list(c) for r in range(k,2*k) for c in itertools.combinations(row_idx, r)]
     return possible_tables
 
+def convert_combination(df_cost_cal, df, combination):
+    #print (combination)
+    subset = df_cost_cal.iloc[combination,:]
+    subset = subset.to_numpy(dtype=np.int)
+
+    for j in range(0,len(df.columns)):
+        flag = 0
+        for i in  range(len(combination)-1):
+            if subset[i][j] != subset[i+1][j] :
+                #print ("column " , j ," all stars" )
+                flag = 1
+                break
+        if flag == 1:
+            #for j in range(len(df.columns)-1):
+            for elem in combination :
+                df.iat[elem,j] = "*"
+
+    return
+    
+
 if __name__ == "__main__":
-    k = 5
-    m = 10
-    n = 10
+    k = 3
+    m = 5
+    n = 20
     # DATA
     df = pd.read_csv('adult.csv', index_col = False, header = None)
     # print(len(df.columns))
@@ -36,6 +56,8 @@ if __name__ == "__main__":
     print(df)
     df_to_cal_cost = df.apply(lambda x: pd.factorize(x)[0])
     # print(df_to_cal_cost)
+    df = df.astype(str)
+
 
     possible_combinations = get_all_combination(df, k)
     n_rows = len(df)
@@ -64,7 +86,6 @@ if __name__ == "__main__":
     # Define problem
     problem = cp.Problem(cp.Minimize(weights@x), cons)
 
-    #time
     start_t = time.time()
     problem.solve()
     end_t = time.time()
@@ -75,8 +96,10 @@ if __name__ == "__main__":
     for idx, combo in enumerate(possible_combinations):
         if np.isclose(x.value[idx], 1):
             solution.append(combo)
+            convert_combination(df_to_cal_cost,df, combo)
     print(solution)
     print(weights@x.value)
+    print (df)
 
 
     # each row_idx is in only one combination
