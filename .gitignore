@@ -126,3 +126,4 @@ dmypy.json
 
 #Swap files
 .cvx_solver.py.swp
+.README.md.swp
