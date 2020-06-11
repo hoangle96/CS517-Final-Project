@@ -18,10 +18,4 @@ Running the experiment :
 
 ```python cvx_solver.py -filename -M -N -K```
 
-with filename being the path to the database in `.csv` format, `-M` being the number of rows, `-N` being the number of private attributes, and `-K` being the number of rows that are similar to each other. The result will be saved in `"k_anonymized_df.csv"` with k being replaced by the value of -K. We also include the *Adult* dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/adult).
-
-<!-- To try different size of the dataset, change value of m, n and k in the code
-
-n = Number of rows in the databse
-m = number of columns in the database
-k = degree of anonymization -->
+with filename being the path to the database in `.csv` format, `-M` being the number of rows, `-N` being the number of public attributes needed to be anonymized, and `-K` being the number of rows that are similar to each other. The result will be saved in `"k_anonymized_df.csv"` with k being replaced by the value of -K. We also include the *Adult* dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/adult).
