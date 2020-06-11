@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
     # VARS
     x = cp.Variable((n_combo, 1), boolean = True)
-    # CONSTRAINS
+    # CONSTRAINTS
     cons = [cp.sum(row_combo_map@x, axis=1) == 1]
     # Define problem
     problem = cp.Problem(cp.Minimize(weights@x), cons)
