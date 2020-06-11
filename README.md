@@ -1,4 +1,4 @@
-# CS517_final_project
+# K-anonymize database through solving set cover with ILP
 
 This is the course project for the CS517 : Theory of Complexity course 
 
