@@ -1,0 +1,101 @@
+0,1,2,3,4,5,6,7,8,9
+*,*,*,*,*, Never-married,*, Not-in-family, White, Male
+*,*,*, Bachelors,13, Married-civ-spouse, Exec-managerial, Husband, White, Male
+*, Private,*, HS-grad,9,*, Handlers-cleaners, Not-in-family, White, Male
+*, Private,*, 11th,7, Married-civ-spouse,*, Husband,*, Male
+*, Private,*,*,*, Married-civ-spouse, Prof-specialty, Wife,*, Female
+*, Private,*,*,*, Married-civ-spouse, Exec-managerial, Wife,*, Female
+*,*,*, 9th,5,*,*,*, Black,*
+*,*,*, HS-grad,9, Married-civ-spouse,*, Husband, White, Male
+*,*,*,*,*, Never-married, Prof-specialty, Not-in-family, White, Female
+*,*,*, Bachelors,13, Married-civ-spouse, Exec-managerial, Husband, White, Male
+*,*,*, Some-college,10, Married-civ-spouse, Exec-managerial, Husband,*, Male
+*,*,*, Bachelors,13, Married-civ-spouse, Prof-specialty, Husband,*, Male
+*, Private,*, Bachelors,13,*,*, Own-child,*, Female
+*,*,*, Assoc-acdm,12, Never-married,*, Not-in-family,*, Male
+*,*,*, Assoc-voc,11, Married-civ-spouse, Craft-repair, Husband,*, Male
+*,*,*, 7th-8th,4, Married-civ-spouse,*, Husband,*, Male
+*,*,*, HS-grad,9, Never-married,*, Own-child, White, Male
+*, Private,*,*,*, Never-married, Machine-op-inspct, Unmarried, White, Male
+*, Private,*, 11th,7, Married-civ-spouse,*, Husband,*, Male
+*,*,*, Masters,14, Divorced, Exec-managerial, Unmarried, White, Female
+*, Private,*, Doctorate,16, Married-civ-spouse, Prof-specialty, Husband, White, Male
+*, Private,*, HS-grad,9, Separated,*, Unmarried,*, Female
+*,*,*, 9th,5,*,*,*, Black,*
+*, Private,*, 11th,7, Married-civ-spouse,*, Husband,*, Male
+*, Private,*, HS-grad,9, Divorced,*,*, White, Female
+*, Local-gov,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+*,*,*, HS-grad,9, Never-married,*, Own-child, White, Male
+*,*,*, Some-college,10, Married-civ-spouse,*, Husband,*, Male
+*,*,*, HS-grad,9, Divorced, Exec-managerial, Not-in-family, White, Male
+*, Private,*, HS-grad,9, Married-civ-spouse, Craft-repair, Husband, White, Male
+*,*,*, Assoc-acdm,12, Never-married,*, Not-in-family,*, Male
+*, Private,*, Some-college,10, Never-married,*, Own-child,*, Male
+*,*,*, Bachelors,13, Divorced, Exec-managerial,*, White, Male
+*,*,*, Some-college,10,*,*, Own-child, White, Male
+*,*,*, Some-college,10, Married-civ-spouse,*, Husband,*, Male
+*, Private,*,*,*, Never-married, Machine-op-inspct, Unmarried, White, Male
+*, Private,*, Some-college,10, Never-married, Machine-op-inspct,*, White, Male
+*, Private,*, HS-grad,9,*, Adm-clerical, Wife, White, Female
+*, Private,*, Some-college,10, Married-civ-spouse, Sales, Husband, White, Male
+48, Self-emp-not-inc,*,*,*, Married-civ-spouse, Prof-specialty, Husband, White, Male
+*, Private,*,*,*, Married-civ-spouse, Machine-op-inspct, Husband, White, Male
+*, Self-emp-not-inc,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, HS-grad,9, Separated,*, Unmarried,*, Female
+*, Private,*, HS-grad,9,*, Handlers-cleaners, Not-in-family, White, Male
+*,*,*, Bachelors,13, Married-civ-spouse, Prof-specialty, Husband,*, Male
+*, Private,*, HS-grad,9, Married-civ-spouse, Machine-op-inspct, Husband, White, Male
+*,*,*, Masters,14, Divorced, Exec-managerial, Unmarried, White, Female
+*,*,*, Assoc-voc,11, Married-civ-spouse, Craft-repair, Husband,*, Male
+*,*,*,*,*, Never-married,*, Not-in-family, White, Male
+*, Private,*,*,*, Married-civ-spouse, Exec-managerial, Wife,*, Female
+18, Private,*,*,*, Never-married, Other-service, Own-child, White, Female
+*, Private,*,*,*, Married-civ-spouse, Prof-specialty, Wife,*, Female
+*,*,*, Bachelors,13, Divorced, Exec-managerial,*, White, Male
+*,*,*, HS-grad,9, Divorced, Exec-managerial, Not-in-family, White, Male
+*, Private,*, Some-college,10, Married-civ-spouse,*,*, White, Male
+*, Private,*,*,*, Married-civ-spouse, Machine-op-inspct, Husband, White, Male
+*, Private,*, Assoc-voc,11, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, HS-grad,9, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, HS-grad,9, Married-civ-spouse, Machine-op-inspct, Husband, White, Male
+*, Private,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+*, ?,*,*,*,*, ?,*, White, Male
+*, Private,*, HS-grad,9, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, Doctorate,16, Married-civ-spouse, Prof-specialty, Husband, White, Male
+29,*,*, Some-college,10,*,*, Not-in-family, White, Male
+*, Private,*, HS-grad,9, Married-civ-spouse, Craft-repair, Husband, White, Male
+28, Private,*, Some-college,10, Divorced,*,*,*, Female
+*, Private,*, HS-grad,9,*, Adm-clerical, Wife, White, Female
+*,*,*, Some-college,10, Married-civ-spouse, Exec-managerial, Husband,*, Male
+*,*,*, Some-college,10,*,*, Own-child, White, Male
+*, Private,*, Some-college,10, Never-married,*, Own-child,*, Male
+*, Private,*, Bachelors,13,*,*, Own-child,*, Female
+*, Self-emp-not-inc,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, Some-college,10, Never-married, Machine-op-inspct,*, White, Male
+*, Private,*, Some-college,10, Married-civ-spouse,*,*, White, Male
+*,*,*, HS-grad,9, Never-married, Other-service, Own-child,*, Male
+*, Private,*,*,*, Married-civ-spouse,*, Husband, White, Male
+*, ?,*,*,*,*, ?,*, White, Male
+18, Private,*,*,*, Never-married, Other-service, Own-child, White, Female
+*,*,*, 7th-8th,4, Married-civ-spouse,*, Husband,*, Male
+*, Private,*,*,*, Never-married, Sales, Not-in-family, White, Male
+*, Private,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, HS-grad,9, Married-civ-spouse,*, Wife,*, Female
+*, Private,*, HS-grad,9, Married-civ-spouse,*, Husband, White, Male
+*, Private,*, HS-grad,9, Divorced,*,*, White, Female
+*, Private,*, HS-grad,9, Divorced,*,*, White, Female
+*,*,*, HS-grad,9, Married-civ-spouse,*, Husband, White, Male
+*, Private,*,*,*, Married-civ-spouse,*, Husband, White, Male
+*, Private,*,*,*, Never-married, Sales, Not-in-family, White, Male
+*,*,*,*,*, Never-married, Prof-specialty, Not-in-family, White, Female
+*, Private,*, Assoc-voc,11, Married-civ-spouse,*, Husband, White, Male
+*, Private,*,*,*, Divorced,*, Unmarried, White, Female
+28, Private,*, Some-college,10, Divorced,*,*,*, Female
+*, Private,*, HS-grad,9, Married-civ-spouse,*, Wife,*, Female
+*, Local-gov,*, Bachelors,13, Married-civ-spouse,*, Husband, White, Male
+29,*,*, Some-college,10,*,*, Not-in-family, White, Male
+48, Self-emp-not-inc,*,*,*, Married-civ-spouse, Prof-specialty, Husband, White, Male
+*, Private,*, Some-college,10, Married-civ-spouse, Sales, Husband, White, Male
+*, Private,*,*,*, Divorced,*, Unmarried, White, Female
+*,*,*, HS-grad,9, Never-married, Other-service, Own-child,*, Male
