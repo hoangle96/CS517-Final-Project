@@ -10,6 +10,9 @@ def nunique_percol_sort(a):
     b = np.sort(a,axis=0)
     return (b[1:] != b[:-1]).sum(axis=0)+1
 
+'''
+Function to calculate the cost of a combination of rows
+'''
 def cal_cost(df, row_idx):
     # row_idx_int = [int(c) for c in row_idx]
     subset = df.iloc[row_idx,:]
@@ -18,6 +21,9 @@ def cal_cost(df, row_idx):
     return  ((nunique_per_row>1).sum())*subset.shape[0]
     # return subset.nunique().ne(1).sum() * subset.shape[0]
 
+'''
+Function to get all possible combinations of size k
+'''
 def get_all_combination(df, k):
     possible_tables = []
     # Get all the row indices from dataframe
@@ -26,6 +32,10 @@ def get_all_combination(df, k):
     possible_tables += [list(c) for r in range(k,2*k) for c in itertools.combinations(row_idx, r)]
     return possible_tables
 
+'''
+Algo 3 : converting a set of rows from the given combination 
+         from the original to a version with "*" at the correct location
+'''
 def convert_combination(df_cost_cal, df, combination):
     #print (combination)
     subset = df_cost_cal.iloc[combination,:]
@@ -46,14 +56,14 @@ def convert_combination(df_cost_cal, df, combination):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Argument for R(e_max) algorithm')
-    parser.add_argument('filename', 
+    parser.add_argument('-filename', 
                         type=str, 
                         help='Input filename')
-    parser.add_argument('M', type = int, 
+    parser.add_argument('-M', type = int, 
                         help = "Number of rows to be anonymized")
-    parser.add_argument('N', type = int, 
+    parser.add_argument('-N', type = int, 
                         help = "Number of public attributes to be anonymized")
-    parser.add_argument('K', type = int, 
+    parser.add_argument('-K', type = int, 
                         help = "k rows are not differentiable from each other")
 
     # parse arg

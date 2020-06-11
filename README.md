@@ -16,6 +16,12 @@ Package requirements :
 ```
 Running the experiment : 
 
-```python cvx_solver.py -filename -M -N -K```
+```python cvx_solver.py -filename <filename.csv> -M <m> -N <n> -K <k>```
 
 with filename being the path to the database in `.csv` format, `-M` being the number of rows, `-N` being the number of public attributes needed to be anonymized, and `-K` being the number of rows that are similar to each other. The result will be saved in `"k_anonymized_df.csv"` with k being replaced by the value of -K. We also include the *Adult* dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/adult).
+
+Example Run :
+
+''' python cvx_solver.py -filename adult.csv -M 10 -K 2 -N 5 '''
+
+Run ''' python cvx_solver.py -- help ''' for information while running.
