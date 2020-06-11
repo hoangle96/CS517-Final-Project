@@ -22,6 +22,7 @@ with filename being the path to the database in `.csv` format, `-M` being the nu
 
 Example Run :
 
-''' python cvx_solver.py -filename adult.csv -M 10 -K 2 -N 5 '''
+```python cvx_solver.py -filename adult.csv -M 10 -K 2 -N 5```
+to 2-anonymize the first 10 rows of the *adult* dataset with the first 5 attributes being public attributes. 
 
-Run ''' python cvx_solver.py -- help ''' for information while running.
+Run `python cvx_solver.py -- help` for information while running.
